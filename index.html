@@ -12,6 +12,14 @@
     <!-- Font Awesome for icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
+    <!-- 웹폰트 -->
+    <!--  font-family: "Iosevka Charon", monospace; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
@@ -63,7 +71,7 @@
     <main>
         <section class="main_banner">
             <video class="bg_video" src="./video/banner.mp4" autoplay muted loop playsinline></video>
-         
+
 
             <div class="banner_content inner">
                 <div class="stats">
@@ -101,14 +109,15 @@
                         </div>
                         <h2 class="about-title">현장의 온도를 디자인으로 옮기는, <br> 브랜더 윤요안나 입니다</h2>
                         <p class="about-desc">
-                            지난 10년의 현장 경험은 저에게 이론 이상의 강력한 데이터가 되었습니다. 수많은 관중과 호흡하며 체득한 '대중의 감각'을 브랜딩으로 치환하여, 완벽함만을 좇는
-                            도안이 아닌 사람의 마음을 움직이는 자연스러운 흐름을 만듭니다.
+                            지난 10년의 현장 경험은 저에게 이론 이상의 강력한 데이터가 되었습니다.
+                            치열한 현장에서 체득한 '대중의 취향'을 브랜드로 풀어냅니다.
+                            완벽하게 짜인 틀 보다, 사람들의 마음을 부드럽게 움직이는 자연스러운 디자인을 추구합니다.
                         </p>
                     </div>
 
                     <div class="about-cards reveal" style="transition-delay: 0.2s;">
                         <div class="timeline">
-                               <div class="timeline-item">
+                            <div class="timeline-item">
                                 <div class="timeline-year">Career</div>
                                 <div class="timeline-role">
                                     <strong>프로 스포츠 치어리더</strong>
@@ -144,14 +153,14 @@
                                     <span>성결대학교 연극영화학과 연기예술전공 [졸업]</span>
                                 </div>
                             </div>
-                
-                         
+
+
                         </div>
 
                         <div class="info-card-wrap">
                             <div class="info-card">
                                 <h3><span class="card-num">01</span> My Vision</h3>
-                                <p>데이터보다 예민한 직관으로 브랜드의 본질을 설계합니다.
+                                <p>데이터보다 예민한 직관으로 브랜드의 본질을 설계합니다. <br>
                                     시장의 니즈를 비즈니스 가치로 치환하고, 유저의 마음을 움직이는 가장 효율적인 비주얼 솔루션을 제시합니다.</p>
                             </div>
                             <div class="info-card">
@@ -193,8 +202,7 @@
                         <div class="project-info">
                             <span>BI/BX guide</span>
                             <h3>화장품 브랜드<br>'OWND'</h3>
-                            <p>'Own'과 'Attitude'의 합성어로, "나의 아름다움을 스스로 정의하고 소유한다"는 메세지를 담은 브랜드 입니다. OWND는 과한 메이크업이나 완벽한
-                                커버가 아닌, 자연스러운 피부와 자신감 있는 태도를 표현합니다. 즉, 타인의 기준이 아닌 나 자신이 느끼는 아름다움을 중심으로 하는 뷰티 브랜드 입니다.
+                            <p>'Own'과 'Attitude'의 합성어로, "나의 아름다움을 스스로 정의하고 소유한다"는 메세지를 담은 브랜드 입니다. OWND는 과한 메이크업이나 완벽한 커버가 아닌, 자연스러운 피부와 자신감 있는 태도를 표현합니다. 즉, 타인의 기준이 아닌 나 자신이 느끼는 아름다움을 중심으로 하는 뷰티 브랜드 입니다.
                             </p>
                             <a href="./guide.html" target="_blank" class="btn-view">
                                 View BI/BX guide
@@ -460,6 +468,18 @@
             </a>
         </div>
     </section> -->
+ <div class="marquee-container"> <!--------------플로우 섹션 S ------------->
+            <div class="marquee-content" id="marquee">
+                <div class="marquee-item">FEEL THE VIBE</div>
+                <div class="marquee-item">BEYOND THE PERFECT</div>
+                <div class="marquee-item">OWN YOUR MOMENT</div>
+             
+                <!-- 복사본 -->
+                <div class="marquee-item">FEEL THE VIBE</div>
+                <div class="marquee-item">BEYOND THE PERFECT</div>
+                <div class="marquee-item">OWN YOUR MOMENT</div>
+            </div>
+        </div> <!--------------플로우 섹션 E ------------->
 
     <!-- CONTACT -->
     <div class="grax_tm_contact" id="contact">
@@ -469,38 +489,42 @@
             </div>
             <div class="contact_inner">
                 <div class="left wow fadeInLeft" data-wow-duration="1s">
-                    
+
                     <div class="info_list">
                         <ul>
 
                             <li>
                                 <div class="list_inner">
-                                    <!-- <img class="svg" src="img/svg/email" alt="이메일아이콘" /> -->
+                                    <img class="svg" src="./images/svg/mail.png" alt="이메일아이콘" />
                                     <p><span class="first">Email:</span><span class="second"><a
-                                                href="mailto:yoannayun@naver.com" target="_blank">example@gmail.com</a></span></p>
+                                                href="mailto:yoannayun@naver.com"
+                                                target="_blank">yoannayun@naver.com</a></span></p>
                                 </div>
                             </li>
 
                             <li>
                                 <div class="list_inner">
-                                    <!-- <img class="svg" src="img/svg/social/dribbble.svg" alt="웹사이트아이콘" /> -->
+                                    <img class="svg" src="./images/svg/web.png" alt="웹사이트아이콘" />
                                     <p><span class="first">Website:</span><span class="second"><a
-                                                href="https://attractive1322-max.github.io/ownd/" target="_blank">attractive1322-max.github.io/ownd </a></span></p>
+                                                href="https://attractive1322-max.github.io/ownd/"
+                                                target="_blank">attractive1322-max.github.io/ownd </a></span></p>
                                 </div>
                             </li>
 
                             <li>
                                 <div class="list_inner">
-                                    <!-- <img class="svg" src="img/svg/phone.svg" alt="핸드폰아이콘" /> -->
-                                    <p><span class="first">Phone:</span><span class="second"><a href="#">+82 10 3110  9300</a></span></p>
+                                    <img class="svg" src="./images/svg/phone.png" alt="핸드폰아이콘" />
+                                    <p><span class="first">Phone:</span><span class="second"><a href="#">+82 10 3110
+                                                9300</a></span></p>
                                 </div>
                             </li>
 
                             <li>
                                 <div class="list_inner">
-                                    <!-- <img class="svg" src="img/svg/social/instagram.svg" alt="인스타그램아이콘" /> -->
+                                    <img class="svg" src="./images/svg/instagram.png" alt="인스타그램아이콘" />
                                     <p><span class="first">Instagram:</span><span class="second"><a
-                                                href="https://www.instagram.com/attractive_y"  target="_blank">@attractive_y</a></span></p>
+                                                href="https://www.instagram.com/attractive_y"
+                                                target="_blank">@attractive_y</a></span></p>
                                 </div>
                             </li>
 
@@ -534,6 +558,9 @@
     <script>
         AOS.init();
     </script>
+
+
+
 
 </body>
 
